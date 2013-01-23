@@ -1,23 +1,23 @@
-;;; vi-style line number mode for Emacs
-;;; (requires Emacs 19.29 or later, or XEmacs 19.14 or later)
-;;; Copyright (C) 1994, 1995, 1997 Kyle E. Jones
-;;;
-;;; This program is free software; you can redistribute it and/or modify
-;;; it under the terms of the GNU General Public License as published by
-;;; the Free Software Foundation; either version 2, or (at your option)
-;;; any later version.
-;;;
-;;; This program is distributed in the hope that it will be useful,
-;;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;;; GNU General Public License for more details.
-;;;
-;;; A copy of the GNU General Public License can be obtained from this
-;;; program's author (send electronic mail to kyle@uunet.uu.net) or from
-;;; the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA
-;;; 02139, USA.
-;;;
-;;; Send bug reports to kyle@wonderworks.com
+;;; setnu.el --- vi-style line number mode for Emacs
+
+;; Copyright (C) 1994, 1995, 1997 Kyle E. Jones
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 2, or (at your option)
+;; any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; A copy of the GNU General Public License can be obtained from this
+;; program's author (send electronic mail to kyle@uunet.uu.net) or from
+;; the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA
+;; 02139, USA.
+
+;;; Commentary:
 ;;
 ;; M-x setnu-mode toggles the line number mode on and off.
 ;;
@@ -26,6 +26,12 @@
 ;; Example:
 ;;     (add-hook 'text-mode-hook 'turn-on-setnu-mode)
 ;; to automatically turn on line numbering when enterting text-mode."
+;;
+;; Send bug reports to kyle@wonderworks.com
+;;
+;; Requires Emacs 19.29 or later, or XEmacs 19.14 or later.
+
+;;; Code:
 
 (provide 'setnu)
 
